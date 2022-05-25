@@ -1,0 +1,15 @@
+Organização de arquivos
+Prof. Renato Campos Mauro
+Exercicio lab 1
+
+1. Considere um arquivo contendo apenas letras e espaços. Não há nenhum símbolo de pontuação. Escreva um programa em C que conte quantas palavras existem nesse arquivo e que calcule o tamanho médio (quantidade de caracteres) das palavras encontradas. Utilize como teste o arquivo loremipsum.txt fornecido. Utilize como base o programa copia1.c dado na aula passada. Use as funções fopen, fclose e fgetc.
+
+2. A função fopen recebe como segundo parâmetro o modo de abertura do arquivo. Consultando o manual da linguagem de programação, explique cada um dos modos abaixo:
+Modo de Abertura Significado
+r
+w
+a
+r+
+w+
+r+b
+rb
