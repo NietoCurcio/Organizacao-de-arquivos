@@ -19,13 +19,13 @@ Ao executar um programa, três arquivos são abertos:
 ```shell
 # redirecionando a saída padrão ('>' ou '1>')
 
-shell./programa > saida.txt
+./programa > saida.txt
 ```
 
 ```shell
 # redirecionando a saída de erro padrão
 
-shell./programa 2> saida_err.txt
+./programa 2> saida_err.txt
 ```
 
 O comando "cat" do Linux é uma forma de demonstrar o redirecionamento, exemplo com uso do "grep":
