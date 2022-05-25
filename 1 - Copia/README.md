@@ -38,8 +38,6 @@ b
 c
 # hit end of file (CTRL + Z)
 
-cat > saida.txt
-
 cat < saida.txt > saida_2.txt
 
 cat < saida_2.txt | grep 'a\|b\|c'
