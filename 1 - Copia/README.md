@@ -1,6 +1,6 @@
 # Cópia de arquivos byte a byte
 
-copia1.c faz a cópia de um arquivo, isso é feito através das funções fgetc e fput, copiando um byte de cada vez.
+copia1.c faz a cópia de um arquivo, isso é feito através das funções fgetc e fputc, copiando um byte de cada vez.
 
 Ao executar um programa, três arquivos são abertos:
 
