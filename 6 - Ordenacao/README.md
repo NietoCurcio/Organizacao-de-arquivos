@@ -6,7 +6,7 @@
 
 - Melhor caso e em média: O(nlog(n))
 
-- Pior caso: O(nlog(n))
+- Pior caso: O(n^2)
 
 ### Demonstração da complexidade por relação de recorrência
 
