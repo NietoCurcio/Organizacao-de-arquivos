@@ -1,6 +1,6 @@
 # Cópia de arquivos byte a byte
 
-copia1.c faz a cópia de um arquivo, isso é feito através das funções fgetc e fput, copiando um byte de cada vez.
+copia1.c faz a cópia de um arquivo, isso é feito através das funções fgetc e fputc, copiando um byte de cada vez.
 
 Ao executar um programa, três arquivos são abertos:
 
@@ -19,13 +19,13 @@ Ao executar um programa, três arquivos são abertos:
 ```shell
 # redirecionando a saída padrão ('>' ou '1>')
 
-shell./programa > saida.txt
+./programa > saida.txt
 ```
 
 ```shell
 # redirecionando a saída de erro padrão
 
-shell./programa 2> saida_err.txt
+./programa 2> saida_err.txt
 ```
 
 O comando "cat" do Linux é uma forma de demonstrar o redirecionamento, exemplo com uso do "grep":
@@ -37,8 +37,6 @@ a
 b
 c
 # hit end of file (CTRL + Z)
-
-cat > saida.txt
 
 cat < saida.txt > saida_2.txt
 
