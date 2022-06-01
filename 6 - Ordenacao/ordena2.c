@@ -26,7 +26,7 @@ int main(int argc, char**argv)
 	Endereco *e;
 	long posicao, qtd, metade;
 
-	f = fopen("cep.dat","rb");
+	f = fopen("../datasets/cep.dat","rb");
 	fseek(f,0,SEEK_END);
 	posicao = ftell(f);
 	qtd = posicao/sizeof(Endereco);
