@@ -23,7 +23,7 @@ int compara(const void *e1, const void *e2) {
 void writeSortedBatch(int batch_size, int batch_idx, FILE* f) {
 	FILE* output; 
 	Endereco* e; // buffer
-	char filename[12];
+	char filename[13];
 
 	e = (Endereco*) malloc(batch_size * sizeof(Endereco));
 	fread(e, sizeof(Endereco), batch_size, f);
