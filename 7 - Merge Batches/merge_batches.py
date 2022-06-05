@@ -93,8 +93,8 @@ if __name__ == '__main__':
     'next': BATCHES
   }
 
-  while pair_idx < BATCHES:
+  while mergeState['pair_idx'] < BATCHES:
     mergeSortedBatches(mergeState)
-    pair_idx += 1
+    mergeState['pair_idx'] += 1
 
   print("Sorted data merged")
